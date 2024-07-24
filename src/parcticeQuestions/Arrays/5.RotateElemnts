@@ -1,0 +1,20 @@
+revers an array
+left rotate an array by one
+left rotate an array by d places
+move zeroes to an end
+
+
+reverse of an array:
+--> using while condition is low<high --> for every steps we hvae to swap two elements of an array
+
+left rotate an array by one
+--> shifting an elemeents from last eleemnt to the previous elements and atlast we have to store the elemnet to the array by storing an element in the temp variable
+
+left rotate an array by d places
+naive solutin ->   calling the left rotate an array by d places
+method 2 ->  same as above storing the elements in temp array and shifting an elements in the array and store temp array elemnts in the array
+method 3 -> reversal alagorithm->  recursion problem
+
+Move zeroes to an end
+-->  as we know in array default value is  zero so here this point we can use adavantage for our code that
+-->  swap the elements to the front if the element is equal to the zeroo by maintainiing the count value( here count is increasing by iterating if the element [resent in the array is not equal to the zero then we increasing the count ]

@@ -1,0 +1,26 @@
+LargestElement in array
+: to get largest element in array we use 2 methods
+1)naive solution -> time( o(n2)
+2)efficient solution -> time ( (o(n) )
+
+1) naive solution:
+using array and iterating in two loops  and finding an element
+here we have to check that evry element in 1st iterating loop is greater r not by iterating whole array by maintaining boolean flag if boolean flag is true then the number is larger r else not larger mve to the next element
+
+
+2) efficient solution
+iterating in same loop and maintaining largest element for every iterating element
+
+=================
+===
+=============
+2ndLargestElement in array
+
+here also we have 2 approaches
+1st approach is ->  using above method and doing an executin method same as above but here we have to write condition that largest elemnt that we got from above method should nt be equal so we hve t iterate two times
+o(n+n) -> o(n)
+
+2nd approach is -> without using above method
+here we have to maintain
+res and largest variables ==>
+if element greater than largest element in array then  we have t store it in the res  to maintain second largest element

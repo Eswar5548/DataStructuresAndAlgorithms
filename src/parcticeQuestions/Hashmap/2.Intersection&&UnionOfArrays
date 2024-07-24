@@ -1,0 +1,12 @@
+intersection of 2 unsorted arrays
+union of 2 unsorted arrays
+
+==============================================
+
+1)intersection of 2 unsorted arrays
+-->Naive solution: we have to traverse array1 in array2 and chck if elements is presnet print or else dont print
+-->Efficient Solution using hashmap: we have to traverse array1 and store in hashset and taverse now array2 and check each elemnt is present in hashset of present print else leave it
+
+2)union of 2 unsorted array
+--> travese an array1 and store in hashset and traverse array2 now and store in hashset
+

@@ -1,0 +1,61 @@
+majority element   --> appearing elements more than n/2 times ( here n is length of an array)
+sliding window technique --> maximum sum of 'k' consecutive elements
+subArray with given sum --> {non-negative array}
+prefix sum
+equilibrium point
+maximum appearing element in range   --> { efficent solution pending }
+minimum consecutive flips[
+
+
+====
+=========
+=============
+majority element :  appearing elements in n/2 times ( here n is length of an array)
+now using this statement that i have given hint is we have two methods:
+method1 --> 1st method is counting an each element present in array by iterating twice by time complexity o(n2)
+method2 -->  2nd method is counting pending { check }
+
+
+==
+=====
+sliding window technique --> maximum sum of 'k' consecutive elements
+method1 --> by iterating an array twice
+method2 --> by maintaing the previous sum and just comparaing the sum with the existing sum
+
+
+===
+==========
+subArray with given sum --> {non-negative array}
+here as we know subArray means all possibilities of subArrays are different length windows
+so here we use above technique of sliding window technique --> that is
+we have to vary the window size start and end check with those all windows sum with the sum that i have been given by the user --> here one more jimportant thing is we can cant resue the window athat we checked with the previous window we  have to check with only that condition
+
+
+=======
+===========
+================
+prefix sum -> it is theory
+getSum of (l,r)  ==>  pSum[r] if l==0
+                 ==>  pSum[r] -  pSum[l-1]
+
+==
+===
+=====
+Equilibrium point  --> is sum of elements of left side and sum of elements of right elements  should be equal to zero
+method1 --> here we have to make  2 iterations -> for frist iteration take each element assume it as a first element and cunt other right isde with itearting in sedocnd lopp and and counting leftside from 0  after check both equal r not if not then iterate again with other elemnt in first loop
+method2 --> using prefix sum above firstly
+
+==
+========
+maximum appearing element in range
+method 1 --> take frequency array and count in that array with the  range by iterating each elements present in that range
+method 2 --> pending
+
+
+==
+====
+=====
+minimum consecutive flips
+here hint is count 2nd group of binary array by checking the first changing element and count them whenever they chnage and print the indexex of those element indexex
+
+

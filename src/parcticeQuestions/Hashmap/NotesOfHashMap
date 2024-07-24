@@ -1,0 +1,39 @@
+==================================================================
+introduction to hashing
+hashing application
+direct address tale
+hashing functions
+collision handling
+chaining                               ==========================>} theory part
+implementation of chaining
+open addressing
+double hashing
+implementation of open addressing
+chaining vs open addressing
+========================================================================
+
+hashset
+hashMap
+countDistinct elements
+frequency of array elements
+
+
+intersection of 2 unsorted arrays
+union of 2 unsorted arrays
+
+
+pair wit given sum in unsorted array
+subArray with zero sum
+subArray with given sum
+longest subArray with given sum
+longest subArray with equal no of 0's and 1's
+
+======================================================================pending
+longest common span with same sum in binary arrays
+longest consecutive subsequence
+
+count distinct elements in everywhere
+
+
+moreThan n/k occurrences
+moreThan n/k occurrences o(nk) solution

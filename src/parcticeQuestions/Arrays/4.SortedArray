@@ -1,0 +1,35 @@
+Largest element in array
+Second largest element in array
+frequencies in a sorted array
+stock buy and sell problem ( part1 , part2 )
+trapping rain water
+
+
+
+=
+===
+====
+
+check array is sorted r not
+approach-> here we have to check next element is greater than previous or nt
+
+===
+=====
+==
+remove duplicates from an sorted array
+approach1-> create an new array and shift the elements of different elemnts by checking the last element in temp array
+approach2-> here we have to iterate from i=1 and check previus element if previous elemnt is equal then leave and dont increase the res variable to store different element in  array  by maintaining the res variable
+
+===
+====
+======
+frequencies in a sorted array
+method1 --> taking while group for checing teh condition i <n an d here we have to check the condition element is eaual to previous element or not if equal then count ++ else print it and increase the i value and intialise the count with the count=1
+
+
+
+====
+======
+-=========
+stock buy and sell problem ( part1 , part2 )
+method1 -->whenever the element is increasing we have to take difference of those two elemnts and store in the profit varibale and printhem atLast

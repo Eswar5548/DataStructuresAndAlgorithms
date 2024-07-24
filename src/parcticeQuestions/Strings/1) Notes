@@ -1,0 +1,35 @@
+Strings
+
+==========================================================================
+Introduction to string
+String in java                     ------------------------->> Theory
+Formulas will be added
+============================================================================
+
+Palindrome check
+check if a string is subsequence of
+
+check for anagram
+
+leftmost repeating character
+leftmost non-repeating character
+
+reverse words in a string
+
+================================================================
+overview of pattern searching
+naive pattern searching
+improved naive Pattern searching for distinct   -------------------->> pattern searching
+Rabin-karp-algorithm
+KMP Algorithm -Part1
+KMP Algorithm Part2
+=====================================================================
+
+check if strings are palindrome
+anagram search
+lexicographic rank of string
+longest substring with distinct characters
+
+
+
+

@@ -1,0 +1,25 @@
+pair wit given sum in unsorted array
+subArray with zero sum
+subArray with given sum
+longest subArray with given sum
+longest subArray with equal no of 0's and 1's
+longest common span with same sum in binary arrays
+longest consecutive subsequence
+=======================================================
+
+1) pair with given sum in unsorted array
+Naive solution --> using two loops array1 for every elements we have to sum with the other element and if its equal to sum print
+efficient solution--> we have to initialize an hashset and now for every element in array we have to check ( sum-element) is present or not if present return true else store the element in hashmap
+
+2)subArray with zero sum
+Naive solution --> we have to do same as above
+efficient solution --> same as above using hashmap but here we have to check that prefix_sum elements before elemnts in hashMap
+
+
+3)subArray with given sum
+NaiveSolution --> we have to traverse an array 2 times
+EfficientSolution -->  same as above we have to store the prefix_sum of element in hashset
+
+4)longest subArray with given sum
+NaiveSolution--> we have to traverse an array by two loops and store maxlength of each sum elements
+efficientSolution -->

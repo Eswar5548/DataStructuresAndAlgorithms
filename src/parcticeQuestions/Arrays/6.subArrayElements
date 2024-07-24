@@ -1,0 +1,52 @@
+leads in array problem --> right side smaller elements in an array
+maximum consecutive 1s
+maximum difference problem between two elements
+maximum subArray sum
+longest even odd subArray
+maximum circular sum subArray  --> {  pending }
+
+
+
+=
+=====
+====
+Leads in array problem
+method 1--> itertaing an Aarray by n2 times --> here for each element we have to check right side elemnts are smaller or not if higher make boolean flag true else false
+method 2 -> as we know right side elemnts are smaller now we have to check each and evry elemnt at last and previous elemnt element we have to check that hugher or not if smaller  break
+
+===
+=====
+===
+maximum consecutive 1's
+method 1 --> we have to iterate an array by n2 times then -> here for each element we have to iterate an evry elemnst in array and count  1s if elements is not equal to 1 then break ;
+method 2 --> same we have to today as above and iterate an elements and counts when arrat equal to 1
+
+===
+=====
+==========
+
+maximum difference problem between two elements
+method1 --> we have to iterate loop with n2 tiimes then for each we have to make difference check with prevuous max differnece if higher store it in the res element
+method2 --> now idea is to get the difference between max and min element so here we have to assume like evry element is min element
+here we have to itearate an array by one time thn we hve to maintan two elements res and min element --> now for each tearate w ehave to get
+
+
+===
+==
+=========
+maximum subArray sum
+method 1--> here we have to iterate an elements by n2 times and for every itearation we have add and get the max of previous sub array then at last we will get maximum of sub array sum
+method 2--> here we have to iterate an array by one time only here idea is we have to get the max subarray sum of previous elements has to maintain in the variable and compare it to the lastest elements and we have to compare and we have to take max of those then at last we get the max subarray sum
+
+
+===
+======
+longest even odd subArray
+Method1 : --> we have to iterate an array two times and here for evry element in first iteration we have to iterate other elements in other itearation and here we have to check in if condidtion that elemnts in first and second iteararion is one even or odd ( or viceversa)  then count it r else break and check max of those current values using res vaiable
+Method2 : --> using kadans algorithm we have to maintain previous values count and check with current count value and take max of those two values in only one iteration
+
+
+==
+===
+=====
+

@@ -1,0 +1,11 @@
+countDistinct elements
+frequency of array elements
+=============================================
+
+1) count Distinct elements in array
+-->Storing all elements in hashSet and return size of the hashset using hashset.size() method
+
+
+2) frequency of array elements
+--> create an hashMap and traverse an array each elenst store in hashmap while storing in hashmap we have to check is this element is present in hashmap or not if present increase its value by storing array elements as keys
+
